@@ -27,8 +27,7 @@ router.get('/new', (req, res) => {
 router.post('/', async (req, res) => {
         const author = new Author({
         name: req.body.name
-        });
-        
+        });``
         try {
         const newAuthor = await author.save();
         res.redirect('/authors');
