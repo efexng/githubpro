@@ -3,7 +3,6 @@
     --form-input-background-color: hsl(var(--color-base-hue), 15%, 31%);
     --form-input-border-color: hsl(var(--color-base-hue), 15%, 40%); 
     --form-input-border-color-light: hsl(var(--color-base-hue), 15%, 60%); 
-    --color-text-light:
 }
 
 .form-row {
